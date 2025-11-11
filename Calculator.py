@@ -13,6 +13,9 @@ def subtract(a, b):
 def multiply(a, b):
     return a * b
 
+def divide(a, b):
+    return a / b
+
 if diya == "+":
     print("The sum is:", add(a, b))
 
@@ -21,3 +24,6 @@ elif diya == "-":
 
 elif diya == "*":
     print("The product is:", multiply(a, b))
+
+elif diya == "/":
+    print("The quotient is:", divide(a, b))
