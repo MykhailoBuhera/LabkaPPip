@@ -17,6 +17,7 @@ def divide(a, b):
     return a / b
 
 def power(a,b):
+def power(a, b):
     return a ** b
 
 if diya == "+":
@@ -33,4 +34,8 @@ elif diya == "/":
 
 elif diya == "^":
     print("The result is:", power(a,b))
+
+=======
+elif diya == "**":
+    print("The result is:", power(a, b))
 
